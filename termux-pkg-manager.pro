@@ -29,6 +29,6 @@ TRANSLATIONS += \
     termux-pkg-manager_en_US.ts
 
 # Default rules for deployment.
-qnx: target.path = /tmp/$${TARGET}/bin
-else: unix:!android: target.path = /opt/$${TARGET}/bin
+qnx: target.path = /data/data/com.termux/files/usr/tmp/$${TARGET}/bin
+else: unix:!android: target.path = /data/data/com.termux/files/usr/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target

@@ -118,6 +118,7 @@ void MainWindow::on_actionAbout_app_triggered()
 {
     QString txt;
     txt = "Termux pkg manager is a graphical interface for\n";
-    txt+= "pkg/apt written in C ++ and Qt";
+    txt+= "pkg/apt written in C ++ and Qt.\n";
+    txt+= "Made by @Yisus7u7 <jesuspixel5@gmail.com>";
     QMessageBox::about(this, "About termux-pkg-manager", txt);
 }
