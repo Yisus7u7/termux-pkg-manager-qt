@@ -15,3 +15,5 @@ if [ $* == "--termux-cross" ]; then
 else
 	echo "Error, invalid argument"
 fi
+
+echo "Installation Done."
