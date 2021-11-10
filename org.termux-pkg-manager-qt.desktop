@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=termux pkg manager
+GenericName=pkg manager
+Comment=Qt interface for apt/pkg of termux
+Exec=termux-pkg-manager
+Icon=emblem-downloads
+Terminal=false
+Type=Application
+Categories=Qt;System;
+X-KDE-StartupNotify=true;

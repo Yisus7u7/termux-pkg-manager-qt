@@ -32,3 +32,6 @@ TRANSLATIONS += \
 qnx: target.path = /data/data/com.termux/files/usr/tmp/$${TARGET}/bin
 else: unix:!android: target.path = /data/data/com.termux/files/usr/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    org.termux-pkg-manager-qt.desktop
